@@ -1,0 +1,26 @@
+.box {
+    width: 100px;
+    height: 100px;
+    animation: sigma 4s ease infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+@keyframes sigma {
+    25% {
+   transform: translate(0px, 300px);
+   background-color: blue;
+    }
+    50% {
+    transform: translate(300px, 300px);
+    background-color: seagreen;
+    }
+    75% {
+    transform: translate(300px, -300px);
+    background-color: yellow;
+    }
+    100% {
+    transform: translate(0px, -300px);
+    background-color: brown;
+    }
+}

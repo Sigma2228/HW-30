@@ -21,10 +21,11 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
 
     <body>
-        <header class="header">
+        <header class="header" data-aos="fade-down" data-aos-duration="1000">
             <div class="container">
                 <svg class="iconn" height="32px" width="150px">
                     <use href="./Photo18/symbol-defs.svg#icon-WebStudio-3-1"></use>
@@ -44,16 +45,16 @@
         </header>
         <section class="section-button">
             <div class="container">
-                <button class="text-button" type="button">Усі</button>
-                <button class="text-button" type="button">Веб-Сайти</button>
-                <button class="text-button" type="button">Додатки</button>
-                <button class="text-button" type="button">Дизайн</button>
-                <button class="text-button" type="button">Маркетинг</button>
+                <button class="text-button" type="button" data-aos="zoom-out-right" data-aos-duration="1000">Усі</button>
+                <button class="text-button" type="button" data-aos="zoom-out-up" data-aos-duration="1000" data-aos-delay="100">Веб-Сайти</button>
+                <button class="text-button" type="button" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">Додатки</button>
+                <button class="text-button" type="button" data-aos="zoom-out-down" data-aos-duration="1000" data-aos-delay="300">Дизайн</button>
+                <button class="text-button" type="button" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="400">Маркетинг</button>
             </div>
         </section>
         <main class="main">
             <div class="container">
-                <figure>
+                <figure data-aos="zoom-out-right" data-aos-duration="1000" data-aos-delay="100">
                     <div class="wrap">
                         <img class="main-gallery" src="Photo18/img.png">
                     <div class="thumb">
@@ -65,7 +66,7 @@
                         <p class="main-text">Веб-Сайт</p>
                     </figcaption>
                 </figure>
-                <figure>
+                <figure data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="200">
                     <div class="wrap">
                         <img class="main-gallery" src="Photo18/img-1.png">
                         <div class="thumb">
@@ -78,7 +79,7 @@
                     </figcaption>
                     </figcaption>
                 </figure>
-                <figure>
+                <figure data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="300">
                     <div class="wrap">
                     <img class="main-gallery" src="Photo18/img-2.png">
                     <div class="thumb">
@@ -90,7 +91,7 @@
                         <p class="main-text">Додаток</p>
                     </figcaption>
                 </figure>
-                <figure>
+                <figure data-aos="zoom-out-right" data-aos-duration="1000" data-aos-delay="400">
                     <div class="wrap">
                     <img class="main-gallery" src="Photo18/img-3.png">
                      <div class="thumb">
@@ -102,7 +103,7 @@
                         <p class="main-text">Маркетинг</p>
                     </figcaption>
                 </figure>
-                <figure>
+                <figure data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="500">
                     <div class="wrap">
                     <img class="main-gallery" src="Photo18/img-4.png">
                     <div class="thumb">
@@ -114,7 +115,7 @@
                         <p class="main-text">Додаток</p>
                     </figcaption>
                 </figure>
-                <figure>
+                <figure data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="600">
                     <div class="wrap">
                     <img class="main-gallery" src="Photo18/img-5.png">
                     <div class="thumb">
@@ -126,7 +127,7 @@
                         <p class="main-text">Веб-Сайт</p>
                     </figcaption>
                 </figure>
-                <figure>
+                <figure data-aos="zoom-out-right" data-aos-duration="1000" data-aos-delay="700">
                     <div class="wrap">
                     <img class="main-gallery" src="Photo18/img-6.png">
                     <div class="thumb">
@@ -138,7 +139,7 @@
                         <p class="main-text">Дизайн</p>
                     </figcaption>
                 </figure>
-                <figure>
+                <figure data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="800">
                     <div class="wrap">
                     <img class="main-gallery" src="Photo18/img-7.png">
                     <div class="thumb">
@@ -150,7 +151,7 @@
                         <p class="main-text">Маркетинг</p>
                     </figcaption>
                 </figure>
-                <figure>
+                <figure data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="900">
                     <div class="wrap">
                         <div class="thumb">
                             <p class="text-transform">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
@@ -206,6 +207,10 @@
             </div>
         </footer>
         <script src="./js/main.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
     </body>
 
     </html>
